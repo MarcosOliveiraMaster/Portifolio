@@ -1,3 +1,10 @@
+:root {
+  --fonte-clara: #ffffff;
+  --bg-cinza-escuro: #2c2c2c;
+  --bg-cinza-claro: #606060;
+  --bg-cinza-intermediario: #a9a9a9;
+}
+
 .container-uimode {
   display: flex;
   align-items: center;
@@ -66,6 +73,17 @@ input:checked + .slider::before {
   color: #ffffff;
 }
 
+/* linguagens - Darkmode */
+.dark-mode .header {
+  background-color: var(--bg-cinza-claro);
+  
+}
+
+.dark-mode .header a{
+  color: var(--fonte-clara);
+  
+}
+
 /* Estilo padrão (modo claro) */
 .container {
   background-color: #ffffff; /* branco */
@@ -74,8 +92,52 @@ input:checked + .slider::before {
 
 /* Quando o modo escuro estiver ativo */
 .dark-mode .container {
-  background-color: #3f3f3f; /* cinza escuro */
+  background-color: var(--bg-cinza-escuro); /* cinza escuro */
 }
+
+/* Barra de Perfil - Darkmode */
+.dark-mode .sidebar {
+  background-color: var(--bg-cinza-claro);
+  
+}
+
+.dark-mode .sidebar p {
+  color: var(--fonte-clara) !important; /* usa a variável branca */
+}
+
+/* experiencia - Darkmode */
+.dark-mode .work-experience {
+  background-color: var(--bg-cinza-claro);
+  
+}
+
+/* linguagens - Darkmode */
+.dark-mode .expert-area {
+  background-color: var(--bg-cinza-claro);
+  
+}
+
+/* linguagens  ico- Darkmode */
+.dark-mode .tools-grid {
+  background-color: var(--bg-cinza-intermediario);
+  
+}
+
+/* linguagens - Darkmode */
+.dark-mode .services {
+  background-color: var(--bg-cinza-claro);
+  
+}
+
+/* linguagens - Darkmode */
+.dark-mode .service-card {
+  background-color: var(--bg-cinza-intermediario);
+  
+}
+
+
+
+
 
 /* Modo claro */
 .light-mode {
