@@ -135,6 +135,13 @@ input:checked + .slider::before {
   
 }
 
+/* linguagens - Darkmode */
+.dark-mode .icon-container {
+  background-color: var(--bg-cinza-intermediario);
+  
+}
+
+
 
 
 
