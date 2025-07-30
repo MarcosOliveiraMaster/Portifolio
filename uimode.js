@@ -1,5 +1,3 @@
-
-
 const button = document.getElementById("toggle-theme");
 const body = document.body;
 
