@@ -1,0 +1,24 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.container-uimode {
+  text-align: center;
+  /* padding: 50px; */
+}
+
+/* Modo escuro */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Modo claro */
+.light-mode {
+  background-color: #f4f4f4;
+  color: #000000;
+}
