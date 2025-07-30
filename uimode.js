@@ -1,4 +1,4 @@
-alert("Script vinculado com sucesso!"); // Alerta ao carregar a página
+
 
 const button = document.getElementById("toggle-theme");
 const body = document.body;

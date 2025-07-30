@@ -62,8 +62,13 @@ input:checked + .slider::before {
 
 /* Modo escuro */
 .dark-mode {
-  background-color: #121212;
+  background-color: #413f3f;
   color: #ffffff;
+}
+
+/* Quando o modo escuro estiver ativo */
+.dark-mode .container {
+  background-color: #2c2c2c; /* cinza escuro */
 }
 
 /* Modo claro */
