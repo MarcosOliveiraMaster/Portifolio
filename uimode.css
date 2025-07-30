@@ -141,6 +141,15 @@ input:checked + .slider::before {
   
 }
 
+.dark-mode .card-box,
+.dark-mode .tools-grid,
+.dark-mode .service-card,
+.dark-mode .cta-box,
+.dark-mode .recent-projects {
+  background-color: var(--bg-cinza-intermediario) !important;
+  color: var(--fonte-clara) !important;
+}
+
 
 
 
